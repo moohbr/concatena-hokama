@@ -15,7 +15,7 @@ int concatena(char* s1, char* s2, char* sres, int* espacos){
         if(sres[aux1] == ' '){
             *espacos += 1;            
         }
-        aux1++; //  soma 1
+        aux1++;
     }
     int aux2 = 0;
     while(s2[aux2] != '\0'){
